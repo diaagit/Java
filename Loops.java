@@ -23,15 +23,25 @@ public class Loops {
             k++;
         } while (k < 5);
 
+        // Sum of first n natural numbers using a loop
+        // try (Scanner sc = new Scanner(System.in)) {
+        //     int n = sc.nextInt();
+        //     int sum = 0;
 
+        //     for(int l =1; l<=n; l++){
+        //         sum = sum + l;
+        //     }
+        //     System.out.println("Sum: " + sum);
+        // }
+
+        // Multiplication table using a loop
         try (Scanner sc = new Scanner(System.in)) {
-            int n = sc.nextInt();
-            int sum = 0;
-
-            for(int l =1; l<=n; l++){
-                sum = sum + l;
+            
+            int num = sc.nextInt();
+            System.out.println("Multiplication table of " + num + ":");
+            for(int m = 1; m<11 ; m++){
+                System.out.println(m*num);
             }
-            System.out.println("Sum: " + sum);
         }
     }
 }
