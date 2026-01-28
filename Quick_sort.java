@@ -32,9 +32,11 @@ public class QuickSort {
         int[] arr = {5, 3, 8, 4, 2};
         quickSort(arr, 0, arr.length - 1);
 
-        for (int num : arr) {
-            System.out.print(num + " ");
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
+
     }
 }
 
